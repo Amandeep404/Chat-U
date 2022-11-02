@@ -51,8 +51,12 @@ dependencies {
     // FirebaseUI for Firebase Authentication
     implementation 'com.firebaseui:firebase-ui-auth:8.0.2'
     // FirebaseUI for Real time Database KTX
-    implementation 'com.firebaseui:firebase-database-ktx:20.0.2'
+    implementation 'com.google.firebase:firebase-database-ktx:20.1.0'
     // FirebaseUI for cloud Storage KTX
-    implementation 'com.firebaseui:firebase-storage-ktx:20.0.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.1.0'
+
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
 
 }

@@ -7,8 +7,8 @@ import com.example.chatapp.R
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.fragment_chat_home.*
 
-class ChatLandingFragment : Fragment(R.layout.fragment_chat_home) {
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+class ChatLandingFragment : Fragment(R.layout.fragment_chat_home)
+    /*override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         viewPager.adapter = ChatViewPagerAdapter(this)
@@ -16,6 +16,6 @@ class ChatLandingFragment : Fragment(R.layout.fragment_chat_home) {
             tab.text =  TAB_TITLES[position]
         }.attach()
     }
-}
+}*/
 
 

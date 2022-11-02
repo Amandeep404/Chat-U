@@ -2,6 +2,7 @@ package com.example.chatapp.main
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.example.chatapp.contacts.ContactsFragment
 
 val TAB_TITLES = arrayOf(
     "Contacts",
